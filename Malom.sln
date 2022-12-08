@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.Text", "Persist
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.Test", "Model.Test\Model.Test.csproj", "{9C92A16C-EE1D-4E19-8228-011B6DEF8FA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View.WPF", "View.WPF\View.WPF.csproj", "{BF3331CA-A63B-4805-8F06-AF4BA8D2D396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewWPF", "WPF\ViewWPF.csproj", "{0A0E7D8A-1947-4279-8C4F-29C6E29CC0BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{9C92A16C-EE1D-4E19-8228-011B6DEF8FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C92A16C-EE1D-4E19-8228-011B6DEF8FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C92A16C-EE1D-4E19-8228-011B6DEF8FA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF3331CA-A63B-4805-8F06-AF4BA8D2D396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF3331CA-A63B-4805-8F06-AF4BA8D2D396}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF3331CA-A63B-4805-8F06-AF4BA8D2D396}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF3331CA-A63B-4805-8F06-AF4BA8D2D396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0E7D8A-1947-4279-8C4F-29C6E29CC0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0E7D8A-1947-4279-8C4F-29C6E29CC0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0E7D8A-1947-4279-8C4F-29C6E29CC0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0E7D8A-1947-4279-8C4F-29C6E29CC0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

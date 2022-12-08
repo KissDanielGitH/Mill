@@ -192,16 +192,17 @@ namespace Model
 
         public void PassTurn()
         {
-            if (Phase == Phases.PHASE2)
+            if (Phase == Phases.PHASE2 || Phase == Phases.REMOVE)
             {
                 CurrentPlayer = CurrentPlayer == Players.White ? Players.Black : Players.White;
+                Phase = phaseCounter < 18 ? Phases.PHASE1 : Phases.PHASE2;
                 OnTableChanged();
             }
         }
 
         public void RemovePiece(Int32 position)
         {
-            if (!CheckMill(position) && CurrentPlayer != GameGraph[position].Data)
+            if (!CheckMill(position) && CurrentPlayer != GameGraph[position].Data && GameGraph[position].Data != Players.NoPlayer)
             {
                 GameGraph[position].Data = Players.NoPlayer;
                 if (CurrentPlayer == Players.Black) NumberOfWhitePieces--;
